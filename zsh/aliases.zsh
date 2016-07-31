@@ -1,2 +1,5 @@
+# clear
+alias cls='clear'
+
 #ls
-alias ls="gls -F --color"
+alias ls='gls -F --color'

@@ -23,4 +23,5 @@ fail () {
 echo "Changing shell..."
 chsh -s /bin/zsh
 
+echo "Installing Homebrew..."
 source ./homebrew/install.sh

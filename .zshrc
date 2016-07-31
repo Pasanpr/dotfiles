@@ -12,4 +12,4 @@ compinit
 # End of lines added by compinstall
 
 # Load files
-for file (~/dotfiles/zsh/*.zsh) source $file
+for file (~/dotfiles/*/*.zsh) source $file

@@ -1,14 +1,11 @@
 cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
-brew update
-brew upgrade
 
 # Package Managers
 brew 'rbenv'
 brew 'cocoapods'
 brew 'carthage'
-brew 'virtualenv'
 
 brew 'coreutils'
 brew 'python3'

@@ -2,6 +2,7 @@
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
+alias cdh='cd ~/'
 
 # clear
 alias cls='clear'

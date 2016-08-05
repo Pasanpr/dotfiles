@@ -25,3 +25,8 @@ chsh -s /bin/zsh
 
 echo "Installing Homebrew..."
 source ./homebrew/install.sh
+
+echo "Installing themes"
+source ./Scripts/themes.sh
+
+exit 0

@@ -19,7 +19,7 @@ source ./Xcode/install.sh
 
 
 echo "Installing powerline fonts"
-if test $(which pip)
-then
-  pip install powerline-status
-fi
+cd ~/Customizations/themes/
+echo "Cloning powerline fonts"
+git clone https://github.com/powerline/fonts.git
+~/Customizations/themes/fonts/install.sh

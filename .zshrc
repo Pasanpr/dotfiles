@@ -28,4 +28,4 @@ setopt PROMPT_SUBST
 export EDITOR='vim'
 
 # Load files
-for file (~/dotfiles/*/*.zsh) source $file
+for file (~/.dotfiles/*/*.zsh) source $file

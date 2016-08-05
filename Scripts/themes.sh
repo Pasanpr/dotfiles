@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-if ! [ -d "~/Customizations/themes/"]
+if ! [ -d "~/Customizations/themes/" ]
 then
   mkdir -p ~/Customizations/themes/
 

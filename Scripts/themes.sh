@@ -6,20 +6,20 @@ if [ ! -d $themes_dir ]
 then
   echo "Creating Customizations directory"
   mkdir -p ~/Customizations/themes/
-
-  cd ~/Customizations/themes/
-  echo "Cloning tomorrow-theme"
-
-  git clone https://github.com/Pasanpr/tomorrow-theme.git
-
-  cd ~/.dotfiles
 fi
 
-source ./Xcode/install.sh
+cd ~/Customizations/themes/
 
+echo "Installing tomorrow-theme"
+git clone https://github.com/Pasanpr/tomorrow-theme.git
+
+echo "Installing Afterglow theme for iTerm"
+git clone https://github.com/yabatadesign/afterglow-itermcolors/
 
 echo "Installing powerline fonts"
-cd ~/Customizations/themes/
-echo "Cloning powerline fonts"
 git clone https://github.com/powerline/fonts.git
-~/Customizations/themes/fonts/install.sh
+
+cd ~/.dotfiles
+
+source ./Xcode/install.sh
+source ./fonts/install.sh

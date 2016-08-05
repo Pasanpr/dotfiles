@@ -11,4 +11,16 @@ Based on [Sam Soffes](https://github.com/soffes/dotfiles), [Zach Holman](https:/
 
 ## Configurations
 
+#### Powerline Fonts
+
 Powerline fonts are installed for use with the zsh theme. You will have to change settings in your preferred application to use them.
+
+#### iTerm
+
+The Afterglow theme is installed in `~/Customizations/themes`. To install:
+
+- iTerm2 > Preferences > Profiles > Colors Tab
+- Click Load Presets
+- Click Import
+- Select the iterm/Afterglow.itermcolors file
+- Select the Afterglow from Load Presets

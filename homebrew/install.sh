@@ -12,5 +12,10 @@ then
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
+brew update
+brew upgrade brew-cask
+brew cleanup
+brew cask cleanup
+
 echo "> brew bundle"
 brew bundle

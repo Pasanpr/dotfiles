@@ -18,8 +18,8 @@ git clone https://github.com/yabatadesign/afterglow-itermcolors/
 
 echo "Installing powerline fonts"
 git clone https://github.com/powerline/fonts.git
+source ./fonts/install.sh
 
 cd ~/.dotfiles
 
 source ./Xcode/install.sh
-source ./fonts/install.sh

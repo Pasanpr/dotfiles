@@ -14,5 +14,3 @@ fi
 
 echo "> brew bundle"
 brew bundle
-
-exit 0

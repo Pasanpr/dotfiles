@@ -4,7 +4,6 @@ tap 'homebrew/bundle'
 
 # Package Managers
 brew 'rbenv'
-brew 'cocoapods'
 brew 'carthage'
 
 brew 'coreutils'

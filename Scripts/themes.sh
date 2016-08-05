@@ -1,7 +1,10 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
-if ! [ -d "~/Customizations/themes/" ]
+themes_dir=~/Customizations/themes
+
+if [ ! -d $themes_dir ]
 then
+  echo "Creating Customizations directory"
   mkdir -p ~/Customizations/themes/
 
   cd ~/Customizations/themes/
@@ -13,3 +16,10 @@ then
 fi
 
 source ./Xcode/install.sh
+
+
+echo "Installing powerline fonts"
+if test $(which pip)
+then
+  pip install powerline-status
+fi

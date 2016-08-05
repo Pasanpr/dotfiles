@@ -15,7 +15,7 @@ brew 'libxml2'
 brew 'libxslt'
 
 # Mac Apps
-cask 'iterm3'
+cask 'iterm2'
 cask '1password'
 cask 'atom'
 cask 'google-chrome'

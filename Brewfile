@@ -15,7 +15,6 @@ brew 'libxslt'
 
 # Mac Apps
 cask 'iterm2'
-cask '1password'
 cask 'atom'
 cask 'google-chrome'
 cask 'slack'
@@ -25,3 +24,4 @@ cask 'skitch'
 cask 'dash'
 cask 'wwdc'
 cask 'caffeine'
+cask 'github-desktop'

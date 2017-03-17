@@ -25,5 +25,13 @@ setopt PROMPT_SUBST
 # Editor
 export EDITOR='vim'
 
+# Path Variables
+
+# golang setup
+export PATH=$PATH:/usr/local/go/bin
+
 # Load files
 for file (~/.dotfiles/*/*.zsh) source $file
+
+# rbenv
+eval "$(rbenv init -)"

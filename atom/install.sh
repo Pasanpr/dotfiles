@@ -9,6 +9,9 @@ FORMULAS=(
     linter-swiftc
     set-syntax
     typewriter
+    linter
+    linter-ui-default
+    linter-pycodestyle
 )
 
 apm install ${FORMULAS[@]}

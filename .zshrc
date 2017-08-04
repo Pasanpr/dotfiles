@@ -36,3 +36,7 @@ for file (~/.dotfiles/*/*.zsh) source $file
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+
+# yarn
+export PATH="$PATH:/opt/yarn-[version]/bin"
+export PATH="$PATH:`yarn global bin`"

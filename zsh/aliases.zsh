@@ -12,3 +12,6 @@ alias ls='gls -F --color'
 
 # atom
 alias ao='atom .'
+
+# python
+alias python='python3'

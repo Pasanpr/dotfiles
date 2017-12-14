@@ -4,7 +4,12 @@
 
 echo "Changing shell..."
 chsh -s /bin/zsh
-ln -s ~/.dotfiles/.zshrc ~/.zshrc
+
+# Check if .zshrc exists, if not create symlink
+if ! test -f ~/.zshrc;
+	then
+	ln -s ~/.dotfiles/.zshrc ~/.zshrc
+fi
 
 echo "Installing Homebrew..."
 source ./homebrew/install.sh
@@ -12,8 +17,8 @@ source ./homebrew/install.sh
 echo "Installing themes"
 source ./Scripts/themes.sh
 
-echo "Installing atom packages"
-source ./atom/install.sh
+echo "Customizing sublime text"
+source ./sublime/install.sh
 
 echo "Setting up Python"
 source ./python/install.sh

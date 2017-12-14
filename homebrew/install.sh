@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #
 # Homebrew
 #
@@ -6,16 +6,15 @@
 # using Homebrew
 
 # Check for Homebrew
-if test ! $(which brew)
-then
-  echo "Installing Homebrew.."
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-fi
+command -v brew >/dev/null 2>&1 || { echo >&2 "Homebrew unavailable. Instaling..."; \
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"; }
 
 brew update
-brew upgrade brew-cask
+brew tap caskroom/cask
+brew install brew-cask
 brew cleanup
 brew cask cleanup
 
 echo "> brew bundle"
 brew bundle
+

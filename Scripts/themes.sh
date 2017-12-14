@@ -8,17 +8,26 @@ then
   mkdir -p ~/Customizations/themes/
 fi
 
-cd ~/Customizations/themes/
+cd $themes_dir
 
-echo "Installing tomorrow-theme"
-git clone https://github.com/Pasanpr/tomorrow-theme.git
+if ! test -d ~/Customizations/themes/tomorrow-theme;
+	then
+	echo "Installing tomorrow-theme"
+	git clone https://github.com/Pasanpr/tomorrow-theme.git
+fi
 
-echo "Installing Afterglow theme for iTerm"
-git clone https://github.com/yabatadesign/afterglow-itermcolors/
+if ! test -d ~/Customizations/themes/afterglow-itermcolors;
+	then
+	echo "Installing Afterglow theme for iTerm"
+	git clone https://github.com/yabatadesign/afterglow-itermcolors/
+fi
 
-echo "Installing powerline fonts"
-git clone https://github.com/powerline/fonts.git
-source ./fonts/install.sh
+if ! test -d ~/Customizations/themes/fonts;
+	then
+	echo "Installing powerline fonts"
+	git clone https://github.com/powerline/fonts.git
+	source ./fonts/install.sh
+fi
 
 cd ~/.dotfiles
 

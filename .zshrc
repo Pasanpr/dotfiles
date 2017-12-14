@@ -41,6 +41,11 @@ eval "$(rbenv init -)"
 export PATH="$PATH:/opt/yarn-[version]/bin"
 export PATH="$PATH:`yarn global bin`"
 
+# Move /usr/local/bin ahead of /usr/bin on $PATH
+export PATH="/usr/local/bin:$PATH"
+
 # subl
-export PATH=/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:$PATH
-export EDITOR='subl -w'
+if ! test -f /usr/local/bin/subl;
+	then
+	ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+fi

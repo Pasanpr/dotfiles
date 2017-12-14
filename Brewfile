@@ -5,17 +5,16 @@ tap 'homebrew/bundle'
 # Package Managers
 brew 'rbenv'
 brew 'carthage'
+brew 'yarn'
 
 brew 'coreutils'
 brew 'python3'
-brew 'node'
 brew 'git'
 brew 'libxml2'
 brew 'libxslt'
 
 # Mac Apps
 cask 'iterm2'
-cask 'google-chrome'
 cask 'slack'
 cask 'dropbox'
 cask 'skitch'

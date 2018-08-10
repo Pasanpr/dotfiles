@@ -28,7 +28,3 @@ if ! test -d ~/Customizations/themes/fonts;
 	git clone https://github.com/powerline/fonts.git
 	source ./fonts/install.sh
 fi
-
-cd ~/.dotfiles
-
-source ./Xcode/install.sh

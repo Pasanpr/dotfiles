@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 # Install packages
-pip install -r ./python/requirements.txt
+pip3 install -r ./python/requirements.txt

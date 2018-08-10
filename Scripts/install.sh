@@ -29,4 +29,7 @@ source ./sublime/install.sh
 echo "Setting up Python environment"
 source ./python/install.sh
 
+echo "Installing utilities"
+source ./utilities/install.sh
+
 exit 0

@@ -5,7 +5,6 @@ tap 'homebrew/bundle'
 # Package Managers
 brew 'rbenv'
 brew 'carthage'
-brew 'yarn'
 
 brew 'coreutils'
 brew 'python3'

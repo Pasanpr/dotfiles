@@ -27,6 +27,9 @@ export EDITOR='vim'
 
 # Path Variables
 
+# Move /usr/local/bin ahead of /usr/bin on $PATH
+export PATH="/usr/local/bin:$PATH"
+
 # golang setup
 export PATH=$PATH:/usr/local/go/bin
 
@@ -37,17 +40,11 @@ for file (~/.dotfiles/*/*.zsh) source $file
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
-# yarn
-export PATH="$PATH:/opt/yarn-[version]/bin"
-export PATH="$PATH:`yarn global bin`"
-
-# Move /usr/local/bin ahead of /usr/bin on $PATH
-export PATH="/usr/local/bin:$PATH"
-
 # subl
 if ! test -f /usr/local/bin/subl;
 	then
 	ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 fi
+
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 export PATH="/usr/local/opt/curl/bin:$PATH"

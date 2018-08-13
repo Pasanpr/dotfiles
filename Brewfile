@@ -71,3 +71,4 @@ mas 'Moom', id; 419330170
 mas 'Haskell', id: 841285201
 mas 'Mind Node', id: 1289197285
 mas 'Reeder', id: 880001334
+mas 'Bear', id: 1091189122

@@ -28,3 +28,5 @@ if ! [ -x "$PLAYGROUND" ]; then
 else
 	echo "Playground installed at $PLAYGROUND!"
 fi
+
+cd $CURRENT_DIR

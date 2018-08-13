@@ -25,7 +25,7 @@ brew 'sqlite'
 brew 'postgresql'
 
 # Swift/iOS
-brew 'kitura'
+brew 'ibm-swift/kitura/kitura'
 brew 'vapor'
 
 # Mac Apps

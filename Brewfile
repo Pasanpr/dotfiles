@@ -58,7 +58,6 @@ cask 'sublime-text'
 cask 'textexpander'
 cask 'transmit'
 cask 'wwdc'
-cask 'zoom'
 
 # MAS Apps
 brew 'mas'

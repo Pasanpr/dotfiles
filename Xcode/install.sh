@@ -2,8 +2,14 @@
 #
 # Xcode
 
-gem install xcode-install
-xcversion update
+XCINSTALL=$(gem list -i xcode-install)
+if ! [ -x "$XCINSTALL" ]; then
+	gem install xcode-install
+	xcversion update
+else
+	echo "xcode-install already installed"
+fi
+
 
 function install_xode () {
 	echo "Which version of Xcode do you want to install:"
@@ -12,18 +18,25 @@ function install_xode () {
 	xcversion install $version 
 }
 
-echo "Listing versions of Xcode.."
-xcversion list
-install_xode
-
-echo "Do you want to install another version? [y/n]:"
+echo "Do you want to install versions of Xcode: "
 read answer
 
-while [ "$answer" = "y" ]; do
+if [ "$answer" = "y" ]; then
+	echo "Listing versions of Xcode.."
+	xcversion list
 	install_xode
+
 	echo "Do you want to install another version? [y/n]:"
 	read answer
-done
+
+	while [ "$answer" = "y" ]; do
+		install_xode
+		echo "Do you want to install another version? [y/n]:"
+		read answer
+	done
+else
+	echo "Xcode install skipped"
+fi
 
 echo "Installing Xcode themes.."
 

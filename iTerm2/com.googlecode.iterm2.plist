@@ -272,13 +272,15 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>543 321 701 285 0 0 1440 877 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>261 373 918 452 0 0 1440 877 </string>
+	<string>261 375 918 485 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 65 1440 812 0 0 1440 877 </string>
+	<string>0 68 1434 809 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
 			<key>ASCII Anti Aliased</key>
+			<true/>
+			<key>ASCII Ligatures</key>
 			<true/>
 			<key>Ambiguous Double Width</key>
 			<false/>
@@ -843,11 +845,11 @@
 			<key>Name</key>
 			<string>Default</string>
 			<key>Non Ascii Font</key>
-			<string>DejaVuSansMonoPowerline 12</string>
+			<string>FiraMonoForPowerline-Regular 12</string>
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>DejaVuSansMonoPowerline 14</string>
+			<string>FiraMonoForPowerline-Regular 14</string>
 			<key>Only The Default BG Color Uses Transparency</key>
 			<true/>
 			<key>Option Key Sends</key>
@@ -918,6 +920,10 @@
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>13681592-587C-489A-99C9-961F55D89E26</string>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
+	<true/>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
+	<integer>0</integer>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>555862511.45310497</real>
 	<key>PointerActions</key>

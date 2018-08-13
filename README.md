@@ -15,6 +15,10 @@ Based on [Sam Soffes](https://github.com/soffes/dotfiles), [Zach Holman](https:/
 
 Powerline fonts are installed for use with the zsh theme. You will have to change settings in your preferred application to use them.
 
+Current Settings:
+- Font: 14pt Fira Mono
+- Non-ASCII Font: 12pt Fira Mono
+
 #### iTerm
 
 The Afterglow theme is installed in `~/Customizations/themes`. To install:
@@ -24,3 +28,4 @@ The Afterglow theme is installed in `~/Customizations/themes`. To install:
 - Click Import
 - Select the iterm/Afterglow.itermcolors file
 - Select the Afterglow from Load Presets
+

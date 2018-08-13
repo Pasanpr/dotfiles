@@ -61,12 +61,12 @@ cask 'wwdc'
 cask 'zoom'
 
 # Mac App Store Apps
-brew 'mas'
-mas signin pasan@premaratne.me
+# brew 'mas'
+# mas signin pasan@premaratne.me
 
-mas 'Tweetbot', id: 1384080005
-mas 'Things 3', id: 904280696
-mas 'Moom', id: 419330170
-mas 'Haskell', id: 841285201
-mas 'MindNode', id: 1289197285 
-mas 'Reeder 3', id: 880001334
+# mas 'Tweetbot', id: 1384080005
+# mas 'Things 3', id: 904280696
+# mas 'Moom', id: 419330170
+# mas 'Haskell', id: 841285201
+# mas 'MindNode', id: 1289197285 
+# mas 'Reeder 3', id: 880001334

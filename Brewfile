@@ -7,6 +7,7 @@
 cask_args appdir: '/Applications'
 tap 'caskroom/cask'
 tap 'caskroom/versions'
+tap 'caskroom/fonts'
 tap 'homebrew/bundle'
 tap 'vapor/tap'
 tap 'ibm-swift/kitura'
@@ -25,6 +26,7 @@ brew 'openssl'
 brew 'node'
 brew 'sqlite'
 brew 'postgresql'
+brew 'font-fira-code'
 
 # Swift/iOS
 brew 'kitura'

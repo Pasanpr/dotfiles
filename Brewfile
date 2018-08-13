@@ -9,6 +9,7 @@ tap 'caskroom/cask'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
 tap 'vapor/tap'
+tap 'ibm-swift/kitura'
 
 # Package Managers
 brew 'carthage'
@@ -26,7 +27,7 @@ brew 'sqlite'
 brew 'postgresql'
 
 # Swift/iOS
-# brew 'ibm-swift/kitura/kitura'
+brew 'kitura'
 brew 'vapor/tap/vapor'
 
 # Mac Apps
@@ -43,7 +44,6 @@ cask 'deckset'
 cask 'discord'
 cask 'docker'
 cask 'dropbox'
-cask 'fastlane'
 cask 'google-chrome'
 cask 'iterm2'
 cask 'java'
@@ -54,20 +54,19 @@ cask 'paw'
 cask 'postgres'
 cask 'postman'
 cask 'sketch'
-cask 'slack'
 cask 'sublime-text'
 cask 'textexpander'
 cask 'transmit'
 cask 'wwdc'
 cask 'zoom'
 
-# Mac App Store Apps
-# brew 'mas'
-# mas signin pasan@premaratne.me
+# MAS Apps
+brew 'mas'
 
-# mas 'Tweetbot', id: 1384080005
-# mas 'Things 3', id: 904280696
-# mas 'Moom', id: 419330170
-# mas 'Haskell', id: 841285201
-# mas 'MindNode', id: 1289197285 
-# mas 'Reeder 3', id: 880001334
+mas 'Slack', id: 803453959
+mas 'Tweetbot', id: 1384080005
+mas 'Things 3', id: 904280696
+mas 'Moom', id; 419330170
+mas 'Haskell', id: 841285201
+mas 'Mind Node', id: 1289197285
+mas 'Reeder', id: 880001334

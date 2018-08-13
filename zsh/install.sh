@@ -2,7 +2,7 @@
 #
 # zsh
 
-brew 'zsh'
+brew install zsh
 
 echo "Changing shell..."
 chsh -s /bin/zsh

@@ -8,4 +8,7 @@ alias cdh='cd ~/'
 alias cls='clear'
 
 #ls
-alias ls='gls -F --color'
+alias ls='gls -l -a -F --color=auto'
+
+# Playgrounds
+alias pg='playground -t ~/Development/Playgrounds/'

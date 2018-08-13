@@ -2,7 +2,7 @@
 #
 # rbenv
 
-brew 'rbenv'
+brew install 'rbenv'
 rbenv init
 
 # Check if setup correctly

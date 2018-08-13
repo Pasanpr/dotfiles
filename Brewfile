@@ -8,6 +8,7 @@ cask_args appdir: '/Applications'
 tap 'caskroom/cask'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
+tap 'vapor/tap'
 
 # Package Managers
 brew 'carthage'
@@ -26,7 +27,7 @@ brew 'postgresql'
 
 # Swift/iOS
 # brew 'ibm-swift/kitura/kitura'
-brew 'vapor'
+brew 'vapor/tap/vapor'
 
 # Mac Apps
 cask '1password'

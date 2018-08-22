@@ -49,3 +49,5 @@ fi
 
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 export PATH="/usr/local/opt/curl/bin:$PATH"
+
+source ~/.iterm2_shell_integration.zsh

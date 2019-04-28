@@ -21,7 +21,7 @@ export CLICOLOR=1
 autoload colors; colors;
 export TERM=xterm-256color
 export LSCOLORS="Gxfxcxdxbxegedabagacad"
-setopt PROMPT_SUBST
+# setopt PROMPT_SUBST
 
 # Editor
 export EDITOR='vim'

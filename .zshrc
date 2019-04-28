@@ -52,3 +52,6 @@ export PATH="/usr/local/opt/curl/bin:$PATH"
 export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PATH"
 
 source ~/.iterm2_shell_integration.zsh
+  # Set Spaceship ZSH as a prompt
+  autoload -U promptinit; promptinit
+  prompt spaceship

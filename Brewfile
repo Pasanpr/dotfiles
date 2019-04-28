@@ -24,6 +24,7 @@ brew 'libxslt'
 brew 'openssl'
 
 brew 'node'
+brew 'npm'
 brew 'sqlite'
 brew 'postgresql'
 brew 'font-fira-code'

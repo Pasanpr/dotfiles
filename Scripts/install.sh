@@ -36,4 +36,7 @@ curl -L https://iterm2.com/shell_integration/zsh \
 -o ~/.iterm2_shell_integration.zsh
 source ~/.zshrc
 
+# https://github.com/denysdovhan/spaceship-prompt
+npm install -g spaceship-prompt
+
 exit 0

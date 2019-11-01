@@ -21,11 +21,11 @@ Current Settings:
 
 #### iTerm
 
-The Afterglow theme is installed in `~/Customizations/themes`. To install:
+The ayu theme is installed in `~/Customizations/themes`. To install:
 
 - iTerm2 > Preferences > Profiles > Colors Tab
 - Click Load Presets
 - Click Import
-- Select the iterm/Afterglow.itermcolors file
-- Select the Afterglow from Load Presets
+- Select the iterm/ayu-mirage.itermcolors file
+- Select the ayu-mirage from Load Presets
 

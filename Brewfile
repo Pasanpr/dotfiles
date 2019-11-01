@@ -6,11 +6,8 @@
 
 cask_args appdir: '/Applications'
 tap 'caskroom/cask'
-tap 'caskroom/versions'
-tap 'caskroom/fonts'
+tap 'homebrew/cask-fonts'
 tap 'homebrew/bundle'
-tap 'vapor/tap'
-tap 'ibm-swift/kitura'
 
 # Package Managers
 brew 'carthage'
@@ -27,50 +24,23 @@ brew 'node'
 brew 'npm'
 brew 'sqlite'
 brew 'postgresql'
-brew 'font-fira-code'
-
-# Swift/iOS
-brew 'kitura'
-brew 'vapor/tap/vapor'
 
 # Mac Apps
 cask '1password'
-cask 'alfred'
-cask 'atom'
 cask 'bartender'
 cask 'caffeine'
 cask 'charles'
-cask 'chitchat'
-cask 'coderunner'
-cask 'dash'
-cask 'deckset'
-cask 'discord'
 cask 'docker'
-cask 'dropbox'
-cask 'google-chrome'
 cask 'iterm2'
-cask 'java'
-cask 'karabiner'
-cask 'karabiner-elements'
-cask 'macdown'
 cask 'paw'
 cask 'postgres'
-cask 'postman'
-cask 'resilio-sync'
-cask 'sketch'
-cask 'sublime-text'
-cask 'textexpander'
-cask 'transmit'
-cask 'wwdc'
+cask 'sublime-merge-dev'
+cask 'font-fira-code'
+cask 'slack'
+cask 'spectacle'
 
-# MAS Apps
+# Mac App Store
+
 brew 'mas'
-
-mas 'Slack', id: 803453959
+mas 'Things', id: 904280696
 mas 'Tweetbot', id: 1384080005
-mas 'Things 3', id: 904280696
-mas 'Moom', id; 419330170
-mas 'Haskell', id: 841285201
-mas 'Mind Node', id: 1289197285
-mas 'Reeder', id: 880001334
-mas 'Bear', id: 1091189122

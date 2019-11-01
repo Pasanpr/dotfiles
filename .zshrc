@@ -37,21 +37,17 @@ export PATH=$PATH:/usr/local/go/bin
 # Load files
 for file (~/.dotfiles/*/*.zsh) source $file
 
-# rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-
-# subl
-if ! test -f /usr/local/bin/subl;
-	then
-	ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
-fi
-
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 export PATH="/usr/local/opt/curl/bin:$PATH"
 export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PATH"
 
 source ~/.iterm2_shell_integration.zsh
-  # Set Spaceship ZSH as a prompt
-  autoload -U promptinit; promptinit
-  prompt spaceship
+
+# Set Spaceship ZSH as a prompt
+autoload -U promptinit; promptinit
+prompt spaceship
+ZSH_THEME="spaceship"
+
+# rbenv
+# export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
